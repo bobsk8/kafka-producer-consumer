@@ -66,11 +66,21 @@ Run background docker compose
 $ sudo docker-compose up -d
 ```
 
-Enter the project folder with terminal(kafka-consumer and kafka-producer)
+PS: <i>Enter the project folder with terminal(kafka-consumer and kafka-producer) and create .env file (see .env.sample)</i>
+
+Run consumer 
+```sh
+$ yarn install
+```
 
 Run consumer 
 ```sh
 $ yarn start
+```
+
+Run producer
+```sh
+$ yarn install
 ```
 
 Run producer
